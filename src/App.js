@@ -31,16 +31,10 @@ export default function Accordian() {
                     <div className="flex-row space-y-1">
                       <div className="flex-row mb-4">
                         <div className="text-xs font-bold">Details</div>
-                        <div className="px-2 text-xs">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit.
-                          <br />
-                          <hr className="bg-gray-500 " />
-                          <br />
-                          <hr className="bg-black " />
-                          <br />
-                          <hr className="bg-gray-500 " />
-                        </div>
+                        <textarea
+                          class="border rounded-md mt-2 w-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 resize-none"
+                          rows="2"
+                        ></textarea>
                       </div>
                       <div>
                         <div className=" text-xs flex-row space-y-1 mb-2">
@@ -77,14 +71,10 @@ export default function Accordian() {
                       </div>
                       <div className="flex-row text-xs">
                         <div className="font-bold">Notes</div>
-                        <div>
-                          <br></br>
-                          <hr className="bg-gray-500"></hr>
-                          <br></br>
-                          <hr className="bg-gray-500"></hr>
-                          <br></br>
-                          <hr className="bg-gray-500"></hr>
-                        </div>
+                        <textarea
+                          class="border rounded-md mt-2 w-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 resize-none"
+                          rows="2"
+                        ></textarea>
                       </div>
                     </div>
                   </Disclosure.Panel>
