@@ -32,7 +32,7 @@ export default function Accordian() {
                       <div className="flex-row mb-4">
                         <div className="text-xs font-bold">Details</div>
                         <textarea
-                          class="border rounded-md mt-2 w-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 resize-none"
+                          class="border rounded-md mt-2 w-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 resize-none outline-white "
                           rows="2"
                         ></textarea>
                       </div>
@@ -72,7 +72,7 @@ export default function Accordian() {
                       <div className="flex-row text-xs">
                         <div className="font-bold">Notes</div>
                         <textarea
-                          class="border rounded-md mt-2 w-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 resize-none"
+                          class="border rounded-md mt-2 w-full bg-white border-gray-300 resize-none outline-white"
                           rows="2"
                         ></textarea>
                       </div>
