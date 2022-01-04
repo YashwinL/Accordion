@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Accordian from "./components/Accordian";
-
+import SearchBar from "./components/SearchBar";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Accordian></Accordian>
+    <SearchBar></SearchBar>
   </React.StrictMode>,
   document.getElementById("root")
 );
