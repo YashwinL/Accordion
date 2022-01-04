@@ -1,0 +1,61 @@
+{
+  "id": "/subscriptions/c4f8cd00-8d36-4768-b173-5a24861095a5/resourceGroups/Youngtry/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesTextTranslation-20211229113611",
+  "name": "Microsoft.CognitiveServicesTextTranslation-20211229113611",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.CognitiveServicesTextTranslation"
+  },
+  "properties": {
+    "templateHash": "9878288747734992929",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "Young"
+      },
+      "location": {
+        "type": "String",
+        "value": "centralindia"
+      },
+      "sku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "identity": {
+        "type": "Object",
+        "value": {
+          "type": "None"
+        }
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-12-29T06:09:57.2923577Z",
+    "duration": "PT5.4129932S",
+    "correlationId": "ac350bf1-cb11-4e72-a2c5-feb4e14c10f7",
+    "providers": [
+      {
+        "namespace": "Microsoft.CognitiveServices",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": ["centralindia"]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/c4f8cd00-8d36-4768-b173-5a24861095a5/resourceGroups/Youngtry/providers/Microsoft.CognitiveServices/accounts/Young"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

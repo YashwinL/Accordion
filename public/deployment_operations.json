@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/c4f8cd00-8d36-4768-b173-5a24861095a5/resourceGroups/Youngtry/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesTextTranslation-20211229113611/operations/EEFE102BE1FA9626",
+    "operationId": "EEFE102BE1FA9626",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-29T06:09:56.9311374Z",
+      "duration": "PT3.5066656S",
+      "trackingId": "c42f970b-8a54-4353-8d52-a7bfe2756db5",
+      "serviceRequestId": "ec3c17b9-7311-4702-bb3b-bc8d163641fa",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/c4f8cd00-8d36-4768-b173-5a24861095a5/resourceGroups/Youngtry/providers/Microsoft.CognitiveServices/accounts/Young",
+        "resourceType": "Microsoft.CognitiveServices/accounts",
+        "resourceName": "Young"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/c4f8cd00-8d36-4768-b173-5a24861095a5/resourceGroups/Youngtry/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesTextTranslation-20211229113611/operations/08585608486939345765",
+    "operationId": "08585608486939345765",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-29T06:09:57.2136797Z",
+      "duration": "PT3.7892079S",
+      "trackingId": "a936134c-eb09-492c-895c-7201210ba7b0",
+      "statusCode": "OK"
+    }
+  }
+]
