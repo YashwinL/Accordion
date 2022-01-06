@@ -7,6 +7,7 @@ export default function Accordian() {
     return (
       <div key={acc} className="w-full -mb-16  pt-16">
         <div className="w-full max-w-md p-2 mx-auto space-y-1 bg-white rounded-2xl  ">
+          <div id="google_translate_element"></div>
           <div className="border-l-4 border-purple-600  rounded-lg shadow-md ">
             <Disclosure>
               {({ open }) => (

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import SearchBar from "./components/SearchBar";
+// import Accordian from "./components/Accordian";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
